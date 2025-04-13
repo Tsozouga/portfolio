@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.Body{
+    width: 1000;
+    height: 100vh;
+    background-color: black;
+   
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    border-radius: 60px;
+}
+.header{
+    width: 85%;
+    margin: auto;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.header ul li a{
+   text-decoration: none;
+   color: #ffff;
+   text-transform: uppercase;
+   
+}
+.motherbox{
+  margin: auto;
+    width: 997px;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(100px);
+  
+    gap: 20px;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, green,rgb(28, 81, 255));
+   
+    text-align: center;
+}
+i{
+    font-size: 50px;
+    
+    padding-top: 20px;
+    color: aliceblue;
+}
+h3{
+    
+    padding-top: 20px;
+}
+h1{
+   
+    text-align: center;
+    
+   
+}
+.mapbox{
+    margin: auto;
+    width: 80%;
+    height: 38vh;
+    background-image: url(map.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+   
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 70%;
+  }
+  h3{
+    text-align: center;
+  }
